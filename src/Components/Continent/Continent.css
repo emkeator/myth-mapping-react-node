@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake|Raleway');
+/* .continentContainer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+.continentInfo {
+    background: #202433;
+    color: darkgrey;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+MapContainer {
+    width: 100vw;
+    height: 610px;
+    background: #202433;
+}
+
+.continentInfo h1 {
+    font-family: 'Eagle Lake', cursive; 
+    border: 1px solid red;
+}
+
+.continentInfo ul {
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.continentInfo li {
+    margin: 19px;
+    
+}
+
+.continentInfo a {
+    color: darkgrey;
+    font-family: 'Eagle Lake', cursive;
+    text-decoration: none;
+}

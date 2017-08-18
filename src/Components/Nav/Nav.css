@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway|Sedgwick+Ave+Display'); */
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake|Raleway');
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Eagle Lake', cursive;
+
+}
+
+nav {
+    padding: 15px;
+    width: 100%;
+    background: #202433;
+    height: 70px;
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+
+.navLink {
+    text-decoration: none;
+    color: darkgrey;
+}

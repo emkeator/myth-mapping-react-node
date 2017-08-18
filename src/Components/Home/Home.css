@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake|Raleway');
+.home {
+    background: #202433;
+    color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home h1 {
+    font-family: 'Eagle Lake', cursive; 
+}
